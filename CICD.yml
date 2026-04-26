@@ -5,7 +5,7 @@ trigger:
 
 variables:
   LIQUIBASE_VERSION: '4.23'
-  CHANGELOG_FILE: 'changelog/db.changelog.xml'
+  CHANGELOG_FILE: 'changelog/db.changelog-master.sql'
 
 stages:
 - stage: Validate
